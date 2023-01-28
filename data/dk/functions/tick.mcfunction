@@ -9,7 +9,8 @@ scoreboard players add seg dk_gtick 1
 execute if score seg dk_gtick matches 20 run scoreboard players add seg Info 1
 execute if score seg Info matches 60 run scoreboard players add min Info 1
 execute if score min Info matches 60 run scoreboard players add hour Info 1
-execute if score hour Info matches 24 run scoreboard players add day Info 1
+execute if score hour Info matches 24 run scoreboard players add Dia Info 1
+execute if score hour Info matches 24 run scoreboard players add Dia dk_gdayserver 1
 execute if score seg dk_gtick matches 20 run scoreboard players reset seg dk_gtick
 
 execute if score seg Info matches 60 run scoreboard players set seg Info 0
