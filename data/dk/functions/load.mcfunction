@@ -1,11 +1,22 @@
-scoreboard objectives add dk_Seg dummy
-scoreboard objectives add Seg dummy
-scoreboard objectives add min dummy
-scoreboard objectives add hour dummy
+#Init coontador player
+scoreboard objectives add dk_gtick dummy
+scoreboard objectives add dk_seg dummy
+scoreboard objectives add dk_min dummy
+scoreboard objectives add dk_hour dummy
+
+
+#Init Contador Global
+scoreboard objectives add dk_gtick dummy
+scoreboard objectives add dk_gseg dummy
+scoreboard objectives add dk_gmin dummy
+scoreboard objectives add dk_ghour dummy
+scoreboard objectives add dk_gday dummy
+#Info contador global
+scoreboard objectives add Info dummy
 
 scoreboard objectives add dk_active trigger
 
-tellraw @a {"text":"TimePlayed By Drakthery V1","color": "yellow","bold": true}
+tellraw @a {"text":"TimePlayed By Drakthery V2","color": "yellow","bold": true}
 
 
 
