@@ -1,3 +1,4 @@
+execute as @a if score @s dk_active matches 1 run title @a actionbar ["§aGlobal §aDay: ",{"score":{"name": "day","objective": "Info"},"color": "yellow"}," §aHour: ",{"score":{"name": "hour","objective": "Info"},"color": "yellow"}," §aMin: ",{"score":{"name": "min","objective": "Info"},"color": "yellow"}," §aSeg: ",{"score":{"name": "seg","objective": "Info"},"color": "yellow"}]
 execute as @a if score @s dk_active matches 0 run title @s actionbar ["§aHour: ",{"score":{"name": "@s","objective": "dk_hour"},"color": "yellow"}," §aMin: ",{"score":{"name": "@s","objective": "dk_min"},"color": "yellow"}," §aSeg: ",{"score":{"name": "@s","objective": "dk_seg"},"color": "yellow"}]
 
 execute as @a run scoreboard players add @s dk_tick 1
