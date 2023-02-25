@@ -20,9 +20,7 @@ scoreboard objectives add dk_active trigger
 
 scoreboard objectives modify dk_gdayserver displayname {"text":"Server","color":"gray","bold": true}
 
-team add dk.gday
-team modify dk.gday prefix {"text":"","color": "green"}
-team join dk.gday Dia
+team join dia Dia
 
 tellraw @a {"text":"TimePlayed By Drakthery V2.5","color": "yellow","bold": true}
 #team add dk.min {"text":"min","color":"green"}
